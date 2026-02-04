@@ -89,7 +89,16 @@
     justify-content:center;
     border-radius: 50px;
     font-size: 2rem;
+    transition: transform 500ms ease;
 }
+
+
+.acoes :hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+
 .acoes .acao:nth-child(1) {
     color:#fd5068;
 }
@@ -116,6 +125,7 @@
 
  .navbar {
     width: 400px;
+    margin: auto;
  }
 }
 
